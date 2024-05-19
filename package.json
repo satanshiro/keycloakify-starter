@@ -2,7 +2,10 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run keycloakify-nx:build",
+    "keycloakify": "keycloakify -p apps/keycloakify-nx"
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",
