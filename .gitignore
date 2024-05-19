@@ -49,7 +49,7 @@ jspm_packages
 .vscode
 
 .DS_Store
-
+.nx
 /dist
 
 /dist_keycloak

@@ -1,0 +1,26 @@
+{
+  "name": "keycloakify-nx",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/keycloakify-nx/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project keycloakify-nx --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/keycloakify-nx"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    }
+  }
+}
