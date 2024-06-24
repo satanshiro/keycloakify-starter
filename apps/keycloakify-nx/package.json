@@ -1,6 +1,4 @@
 {
-  "name": "keycloakify-starter",
-  "homepage": "https://starter.keycloakify.dev",
-  "version": "6.1.9",
-  "description": "A starter/demo project for keycloakify"
+  "name": "keycloakify-nx",
+  "version": "6.1.9"
 }
