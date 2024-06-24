@@ -8,24 +8,12 @@
   },
   "private": true,
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "evt": "^2.5.7",
-    "keycloakify": "^9.6.6",
-    "oidc-spa": "^4.5.1",
-    "powerhooks": "^1.0.8",
-    "tsafe": "^1.6.6",
-    "zod": "^3.22.4"
+    "keycloakify": "10.0.0-rc.93"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.0.2",
-    "@storybook/addon-interactions": "^8.0.2",
-    "@storybook/addon-links": "^8.0.2",
-    "@storybook/addon-onboarding": "^8.0.2",
-    "@storybook/blocks": "^8.0.2",
-    "@storybook/react": "^8.0.2",
-    "@storybook/react-vite": "^8.0.2",
-    "@storybook/test": "^8.0.2",
+    "storybook": "^8.1.10",
+    "@storybook/react": "^8.1.10",
+    "@storybook/react-vite": "^8.1.10",
     "@nx/eslint": "19.0.4",
     "@nx/eslint-plugin": "19.0.4",
     "@nx/js": "19.0.4",
